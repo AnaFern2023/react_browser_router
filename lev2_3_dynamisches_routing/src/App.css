@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.grid-item {
+  background-color: lightgray;
+  padding: 40px;
+}
+
+.header_section {
+  margin-bottom: 5vh;
+}
+
+.header_section h1 {
+  margin-bottom: 2vh;
+}
